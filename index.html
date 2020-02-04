@@ -128,12 +128,12 @@
 
         <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span class="sr-only">Anterior</span>
         </a>
 
         <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span class="sr-only">Siguiente</span>
         </a>
 
       </div>
@@ -151,8 +151,8 @@
 
           <div class="col-lg-4 box">
             <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Amplio Catalogo</a></h4>
-            <p class="description">Nuestro catalogo de cursos es bastante amplio y actualizado.</p>
+            <h4 class="title"><a href="">Amplio Catálogo</a></h4>
+            <p class="description">Nuestro catálogo de cursos es bastante amplio y actualizado.</p>
           </div>
 
           <div class="col-lg-4 box box-bg">
@@ -300,6 +300,7 @@
     <!--==========================
       Call To Action Section
     ============================-->
+
     <section id="call-to-action" class="wow fadeIn">
       <div class="container text-center">
         <div class="row">
@@ -315,11 +316,12 @@
             <h4 class="title"><a href="">9 a. m.-2 p. m.</a></h4>
             <p class="description">Casa Aomori</p>
           </div>
-
         </div>
-
       </div>
-    </section><!-- #call-to-action -->
+    </section>
+    
+    
+    <!-- #call-to-action -->
 
     <!--==========================
       Skills Section
@@ -328,36 +330,25 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Our Skills</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+          <h3>Nuestra Filosofía PBL</h3>
+          <p>
+            El Aprendizaje Basado en Problemas, ABP o PBL por sus siglas en inglés, es un método de aprendizaje por medio del cual los estudiantes desarrollan habilidades de pensamiento crítico y solución de problemas a partir de las experiencias de la vida real. Este es un método basado en el enfoque constructivista, con el cual los estudiantes buscan la manera de resolver problemas reales en el entorno laboral mediante ambientes colaborativos.
+          </p>
         </header>
 
         <div class="skills-content">
 
           <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Práctica <i class="val">80%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Teoría <i class="val">20%</i></span>
             </div>
           </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -804,14 +795,16 @@
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          
+       
+          <form action="https://formspree.io/mgekooeb" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
             </div>
